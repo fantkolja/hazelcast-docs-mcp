@@ -21,7 +21,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "netlify dev",
-    "build": "netlify build"
+    "build": "echo 1"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.20.2",
