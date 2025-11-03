@@ -1,0 +1,23 @@
+[build.environment]
+NODE_VERSION = "22"
+
+#[build]
+#  command = ""
+#  publish = "public"
+
+#[[plugins]]
+#  package = "@netlify/plugin-lighthouse"
+#
+#  [plugins.inputs]
+#    fail_deploy_on_score_thresholds = "false"
+#
+#  [[plugins.inputs.audits]]
+#    path = "index.html"
+#
+#  [plugins.inputs.settings]
+#    preset = "desktop"
+
+[[edge_functions]]
+  function = "mcp"
+  path = "/mcp"
+
